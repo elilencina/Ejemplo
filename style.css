@@ -1,7 +1,104 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+body {
+    height: 100vh;
+    background-color: #cec0b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+ }
+
+ .cont-main{
+width: 80%;
+height: 70%;
+background-color: aquamarine;
+display: flex;
+
+
+ }
+
+ .cont-1 {
+    background-color: yellow;
+   padding: 20px;
+   width: 50%;
+   height: 100%;
+   background-image: url("img/hotel.jpg");
+   background-position: center;
+   background-size: cover;
+   
+   }
+
 h1 {
-    color: blueviolet;
+    font-size: 80px;
+    font-family: cursive;
+    
 }
+.t-stroke {
+    
+      color: transparent;
+    
+      -moz-text-stroke-width: 2px;
+    
+      -webkit-text-stroke-width: 2px;
+    
+      -moz-text-stroke-color: #000000;
+    
+      -webkit-text-stroke-color: #ffffff;
+    
+    }
+    
+     
+    .t-shadow {
+    
+      text-shadow: 10px 10px #8dffcd;
+    
+    }
+
+    p {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(12, 76, 129); 
+        border: style 3px solid grey;
+    }
+    
+ .cont-2 {
+    background-color: aqua;
+    width: 685px;
+    height: 50%;
+    padding: 20px;
+    background-image: url("img/habitacion.jpg");
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-position: center;
+   background-size:cover ;
+
+ }
+
+ .cont-3 {
+    background-color: chartreuse;
+width: 685px;
+height: 50%;
+    padding: 20px;
+    background-image: url("img/desayuno.jpg");
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-position: center;
+   background-size:cover ;
+}
+
+
+
+ 
+
+
+
+
+    
+
+
